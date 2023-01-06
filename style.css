@@ -436,9 +436,9 @@ section{
     margin-top: 20%;
 }
 
-.skills-text h2{
+.skills-text h1{
     font-size: 5vmin;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .skilly{
