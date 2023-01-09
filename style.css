@@ -363,20 +363,20 @@ section{
 
 /* CSS */
 
-#product-wrapper{
+#product_wrapper{
     padding: 5px 10%;
     margin-top: 10%;
 }
-#product-wrapper h1{
+#product_wrapper h1{
    text-align: center;
    margin-bottom: 5%;
    font-size: 35px;
 }
 
-#product-wrapper .details{
+#product_wrapper .details{
     margin-bottom: 1%;
 }
-#product-wrapper .details .Disp{
+#product_wrapper .details .Disp{
     padding: 10px 10px;
     margin-right: 1%;
     border-radius: 50px;
@@ -384,18 +384,18 @@ section{
     transition: 0.5s;
 }
 
-#product-wrapper .details .Disp:hover{
+#product_wrapper .details .Disp:hover{
     background-color: #57a617;
     cursor: pointer;
     color: whitesmoke;
 }
 
-.product-wrapper{
+.product_wrapper{
     display: flex;
     max-width: 1200px;
     position: relative;
   }
-  .product-wrapper i{
+  .product_wrapper i{
     top: 50%;
     height: 44px;
     width: 44px;
@@ -410,55 +410,55 @@ section{
     transform: translateY(-50%);
     transition: transform 0.1s linear;
   }
-  .product-wrapper i:active{
+  .product_wrapper i:active{
     transform: translateY(-50%) scale(0.9);
   }
-  .product-wrapper i:hover{
+  .product_wrapper i:hover{
     background: #f2f2f2;
   }
-  .product-wrapper i:first-child{
+  .product_wrapper i:first-child{
     left: -22px;
     display: none;
   }
-  .product-wrapper i:last-child{
+  .product_wrapper i:last-child{
     right: -22px;
   }
 
-  .product-wrapper .cup{
+  .product_wrapper .cup{
     width: 300px;
     height: 250px;
   }
 
-  .product-wrapper img:hover{
+  .product_wrapper img:hover{
     opacity: 0.5;
   }
 
-  .product-wrapper .carousel{
+  .product_wrapper .caro_usel{
     font-size: 0px;
     cursor: pointer;
     overflow: hidden;
     white-space: nowrap;
     scroll-behavior: smooth;
   }
-  .carousel.dragging{
+  .caro_usel.dragging{
     cursor: grab;
     scroll-behavior: auto;
   }
-  .carousel.dragging img{
+  .caro_usel.dragging img{
     pointer-events: none;
   }
-  .carousel img{
+  .caro_usel img{
     height: 200px;
     object-fit: cover;
     user-select: none;
     margin-left: 14px;
     width: calc(100% / 3);
   }
-  .carousel img:first-child{
+  .caro_usel img:first-child{
     margin-left: 0px;
   }
 
-  #product-wrapper .see-more{
+  #product_wrapper .see-more{
     text-align: center;
 
  }
@@ -474,18 +474,18 @@ section{
  }
 
   @media screen and (max-width: 900px) {
-    .carousel img{
+    .caro_usel img{
       width: calc(100% / 2);
     }
   }
   @media screen and (max-width: 550px) {
-    .carousel img{
+    .caro_usel img{
       width: 100%;
     }
   }
 
   @media (max-width: 500px) {
-    #product-wrapper {
+    #product_wrapper {
         margin-top: 700px;
     }
   }
