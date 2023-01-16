@@ -131,3 +131,7 @@ document.addEventListener("mousemove", drag_ging);
 caro_usel.addEventListener("touchmove", drag_ging);
 document.addEventListener("mouseup", drag_Stop);
 caro_usel.addEventListener("touchend", drag_Stop);
+
+
+
+
