@@ -294,10 +294,10 @@ section{
     width: 100%;
     height: 100%;
     /* background-color: #57a617; */
-    margin-left: 30px;
+    margin-left: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
-    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+    grid-gap: 10px;
 }
 
 .product{
@@ -325,7 +325,7 @@ section{
 .product .C{
     display: flex;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 
@@ -356,6 +356,15 @@ section{
         height: 200px;
         /* background-color: aqua; */
         margin-top: 250px;
+    }
+}
+
+@media (max-width: 415px){
+    .cust{
+        width: 100%;
+        height: 200px;
+        /* background-color: aqua; */
+        margin-top: 50px;
     }
 }
 
@@ -486,12 +495,32 @@ section{
 
   @media (max-width: 500px) {
     #product_wrapper {
-        margin-top: 700px;
+        margin-top: 850px;
     }
   }
 
+  @media (max-width: 875px) {
+    #product_wrapper {
+        margin-top: 250px;
+    }
+  }
 
-  
+  @media (max-width: 705px) {
+    #product_wrapper {
+        margin-top: 550px;
+    }
+  }
+
+  @media (max-width: 380px) {
+    #product_wrapper {
+        margin-top: 850px;
+    }
+  }
+  @media (max-width: 415px) {
+    #product_wrapper {
+        margin-top: 850px;
+    }
+  }
   
   
   
@@ -781,7 +810,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: #57A617;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -812,12 +841,12 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ffffff;
+	color: #ffff;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
-	background-color: #ffffff;
+	background-color: #57A617;
 }
 
 /*responsive*/
@@ -845,3 +874,39 @@ ul{
     }
 }
 
+.serve {
+    background: #f3f9fd;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .serve .col-lg-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .serve img {
+    width: 50%;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 10px 0;
+  }
+  
+  .serve img:hover {
+    filter: none;
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .serve img {
+      width: 40%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .serve img {
+      width: 30%;
+    }
+  }
