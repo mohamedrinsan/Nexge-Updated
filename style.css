@@ -474,7 +474,7 @@ section{
  }
 
  .see-more button{
-    margin-top: 5%;
+    margin-top: 15%;
     cursor: pointer;
     padding: 10px 10px;
     border: none;
@@ -743,7 +743,7 @@ section{
  }
 
  .see-more button{
-    margin-top: 5%;
+    margin-top: 50px;
     cursor: pointer;
     padding: 10px 10px;
     border: none;
@@ -875,39 +875,7 @@ ul{
     }
 }
 
-.serve {
-    background: #f3f9fd;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  .serve .col-lg-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .serve img {
-    width: 50%;
-    filter: grayscale(100);
-    transition: all 0.4s ease-in-out;
-    display: inline-block;
-    padding: 10px 0;
-  }
-  
-  .serve img:hover {
-    filter: none;
-    transform: scale(1.1);
-  }
-  
-  @media (max-width: 768px) {
-    .serve img {
-      width: 40%;
-    }
-  }
-  
-  @media (max-width: 575px) {
-    .serve img {
-      width: 30%;
-    }
-  }
+
+
+
+
