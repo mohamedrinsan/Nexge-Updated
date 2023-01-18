@@ -352,21 +352,22 @@ section{
 
 @media (max-width: 505px){
     .cust{
-        width: 100%;
-        height: 200px;
-        /* background-color: aqua; */
         margin-top: 250px;
     }
 }
 
 @media (max-width: 415px){
     .cust{
-        width: 100%;
-        height: 200px;
-        /* background-color: aqua; */
         margin-top: 50px;
     }
 }
+
+@media (max-width: 376px){
+    .cust{
+        margin-top: 250px;
+    }
+}
+
 
 /* slider start here */
 
