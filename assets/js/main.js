@@ -252,6 +252,12 @@ caro_usel.addEventListener("touchmove", drag_ging);
 document.addEventListener("mouseup", drag_Stop);
 caro_usel.addEventListener("touchend", drag_Stop);
 
+
+
+
+
+
+
 new Swiper('.recent-photos-slider', {
   speed: 400,
   loop: true,
@@ -284,3 +290,5 @@ new Swiper('.recent-photos-slider', {
     }
   }
 });
+
+

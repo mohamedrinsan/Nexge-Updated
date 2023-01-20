@@ -68,6 +68,51 @@ h6,
   }
 }
 
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  height: 40px;
+  padding: 0;
+}
+
+#topbar .contact-info a {
+  line-height: 0;
+  color: #000;
+  transition: 0.3s;
+}
+
+#topbar .contact-info a:hover {
+  color: #57a617;
+}
+
+#topbar .contact-info i {
+  color: #000;
+  line-height: 0;
+  margin-right: 5px;
+}
+
+#topbar .contact-info .phone-icon {
+  margin-left: 15px;
+}
+
+#topbar .social-links a {
+  color: #000;
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#topbar .social-links a:hover {
+  color: #57a617;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Header
@@ -451,10 +496,15 @@ section {
 
 .about .container {
   box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+  height: 80vh;
 }
 
 .about .video-box img {
   padding: 15px 0;
+}
+
+.about .section-title {
+   margin-top: 150px;
 }
 
 .about .section-title p {
@@ -651,9 +701,12 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
+  font-weight: 700;
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
+
+
 
 .cleints {
   /* margin-left: 10%; */
