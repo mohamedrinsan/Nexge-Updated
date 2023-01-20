@@ -160,30 +160,7 @@ nav{
     transform: scale(1.1);
   }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
-    background-color: #000000;
-    cursor: pointer;
-}
 
-.overlay h3 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    text-align: center;
-}
-
-.gallery-item:hover .overlay{
-    opacity: 0.8;
-}
 
 .top {
     margin-top: 20px;
