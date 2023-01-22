@@ -250,7 +250,7 @@ h6,
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #325318;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -259,7 +259,7 @@ h6,
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #000;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
@@ -870,6 +870,36 @@ section {
 .cta .cta-btn:hover {
   background: #ed502e;
   border: 2px solid #ed502e;
+}
+
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 12px 0;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  /* filter: grayscale(100); */
+}
+
+.clients img:hover {
+  /* filter: none; */
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
 }
 
 
