@@ -470,6 +470,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  font-size: 14px;
 }
 
 .section-title button {
@@ -584,11 +585,10 @@ section {
   font-size: 20px;
 }
 
-
-
-.cleints {
-  /* margin-left: 10%; */
+.serv-p {
+  font-size: 14px;
 }
+
 
 
 /* .product_wrapper Section */
@@ -703,9 +703,15 @@ section {
   cursor: pointer;
   padding: 10px 10px;
   border: none;
-  background-color: #57a617;
+  background-color: whitesmoke;
   border-radius: 20px;
-  color: #fff;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.see-more button:hover {
+  background-color: #57a617;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 900px) {
@@ -901,6 +907,72 @@ section {
     max-width: 40%;
   }
 }
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+  background: #fff;
+}
+
+.contact .info-box i {
+  font-size: 32px;
+  color: #57a617;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+
+
+.contact  input,
+.contact  textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+
+
+.contact  input {
+  padding: 10px 15px;
+}
+
+.contact textarea {
+  padding: 12px 15px;
+}
+
+.contact button[type=submit] {
+  background: #6da83c;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+
+
+
 
 
 #footer {
