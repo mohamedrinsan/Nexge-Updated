@@ -171,6 +171,19 @@ nav{
     background-position: center;
 }
 
+/* #hero .carousel-item::before {
+    content: "";
+    background-color: rgba(13, 30, 45, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+  } */
+
 .breadcrumb-item + .breadcrumb-item::before {
     color: black;
 }
@@ -211,6 +224,73 @@ nav{
 }
 
 
+
+
+
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+    padding-bottom: 30px;
+  }
+  
+  .counts .count-box {
+    /* box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1); */
+    padding: 30px;
+    /* background: #fff; */
+    margin-bottom: 0px;
+  }
+  
+  .counts .count-box i {
+    display: block;
+    font-size: 64px;
+    margin-bottom: 15px;
+  }
+  
+  .counts .count-box span {
+    font-size: 42px;
+    display: block;
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+  }
+  
+  .counts .count-box p {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 19px;
+  }
+/* .count-box {
+    margin-left: 150px;
+} */
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+    padding: 12px 0;
+    text-align: center;
+  }
+  
+  .clients img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+  }
+  
+  .clients img:hover {
+    filter: none;
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .clients img {
+      max-width: 40%;
+    }
+  }
 
 
 .footer{

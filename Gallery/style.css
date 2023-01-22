@@ -131,14 +131,14 @@ nav{
 }
 
 .page-header {
-    /* background: linear-gradient( #b6e192,rgb(107, 107, 107)), center center no-repeat; */
-    background-image: url(/Gallery/images/gallery-bg.jpg);
+    /* background:whitesmoke; */
+    background-image: url(/about-us/images/conatct\ bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .page-header .breadcrumb-item a{
-    color: #ffffff;
+    color: #fafafa;
 }
 
 .main-cont {

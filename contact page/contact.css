@@ -124,14 +124,15 @@ nav{
 }
 
 .page-header {
-    background: linear-gradient( #b6e192,rgb(107, 107, 107)), center center no-repeat;
-    /* background-image: url(/about-us/images/about.jpg); */
+    /* background: linear-gradient( #b6e192,rgb(107, 107, 107)), center center no-repeat; */
+    background-image: url(/about-us/images/conatct\ bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
+
 .page-header .breadcrumb-item a{
-    color: black;
+    color: #ffffff;
 }
 
 .footer{
