@@ -817,7 +817,12 @@ section {
   z-index: 1;
 }
 
-
+.gallery-btn button{
+  background-color: #57a617;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
