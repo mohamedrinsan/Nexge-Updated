@@ -207,6 +207,11 @@ nav{
   overflow: hidden;
 }
 
+.member-img img {
+  height: 250px;
+  width: 350px;
+}
+
 
 .team .member .member-info {
   padding: 25px 15px;

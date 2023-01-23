@@ -7,6 +7,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #444;
+  background-color: #F5F9FC;
 }
 
 a {
@@ -912,63 +913,95 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info-box {
-  color: #444444;
-  text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 20px 0 30px 0;
-  background: #fff;
+#contact {
+  margin-top: 0px;
 }
 
-.contact .info-box i {
+.contact .contact-about h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #222222;
+}
+
+.contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #888;
+}
+
+.contact .social-links {
+  padding-bottom: 20px;
+}
+
+.contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #3498db;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #3498db;
+}
+
+.contact .social-links a:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.contact .info {
+  color: #000000;
+}
+
+.contact .info i {
   font-size: 32px;
   color: #57a617;
-  border-radius: 50%;
-  padding: 8px;
+  float: left;
+  line-height: 1;
 }
 
-.contact .info-box h3 {
-  font-size: 20px;
-  color: #777777;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-.contact .info-box p {
-  padding: 0;
-  line-height: 24px;
+.contact .info p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
   font-size: 14px;
-  margin-bottom: 0;
 }
 
 
 
-.contact  input,
-.contact  textarea {
+
+.contact .form-group {
+  margin-bottom: 20px;
+}
+
+.contact input,
+.contact textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  border-radius: 5px;
-}
-
-
-
-.contact  input {
   padding: 10px 15px;
 }
 
-.contact textarea {
-  padding: 12px 15px;
-}
 
-.contact button[type=submit] {
-  background: #6da83c;
+
+.contact  button[type=submit] {
+  background: #57a617;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
 }
+
 
 
 
