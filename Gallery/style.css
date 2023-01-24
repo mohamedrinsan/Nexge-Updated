@@ -153,6 +153,8 @@ nav{
   }
   
   .gallery .gallery-item img {
+    width: 300px;
+    height: 260px;
     transition: all ease-in-out 0.4s;
   }
   
