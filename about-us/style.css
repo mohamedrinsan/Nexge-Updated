@@ -281,7 +281,7 @@ nav{
   }
   
   .clients img {
-    max-width: 45%;
+    /* max-width: 45%; */
     transition: all 0.4s ease-in-out;
     display: inline-block;
     padding: 15px 0;
@@ -289,7 +289,15 @@ nav{
     width: 150px;
     height: 150px;
   }
-  
+  .clients .zumo {
+    /* max-width: 45%; */
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    /* filter: grayscale(100); */
+    width: 150px;
+    height: 100px;
+  }
   .clients img:hover {
     filter: none;
     transform: scale(1.1);
