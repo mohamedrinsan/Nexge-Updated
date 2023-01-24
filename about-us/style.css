@@ -341,6 +341,7 @@ nav{
 	color: #bbbbbb;
 	display: block;
 	transition: all 0.3s ease;
+    margin-left: -30px;
 }
 .footer-col ul li a:hover{
 	color: #ffffff;
