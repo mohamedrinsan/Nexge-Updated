@@ -937,6 +937,21 @@ section {
   height: auto;
 }
 
+@media screen and (max-width:450px) {
+  .contact-about img {
+    margin-left: -25px;
+  }
+}
+
+@media (min-width:500px) and (max-width:800px) {
+  .contact-about img {
+    width: 500px;
+    height: auto;
+  }
+}
+
+
+
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
