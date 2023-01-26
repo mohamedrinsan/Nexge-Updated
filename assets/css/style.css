@@ -932,6 +932,11 @@ section {
   color: #222222;
 }
 
+.contact-about img {
+  width: 350px;
+  height: auto;
+}
+
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
