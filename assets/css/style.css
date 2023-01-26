@@ -11,24 +11,12 @@ body {
 }
 
 a {
-
   text-decoration: none;
 }
 
-a:hover {
 
-  text-decoration: none;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.font-primary {
-  font-family: 'Poppins', sans-serif;
-}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -469,10 +457,6 @@ section {
   color: #000;
 }
 
-.section-title p {
-  margin-bottom: 0;
-  font-size: 14px;
-}
 
 .section-title button {
   padding: 10px 10px;
@@ -510,12 +494,10 @@ section {
 
 .about .section-title p {
   text-align: left;
-  font-style: italic;
-  color: #666;
+  font-style: normal;
+  color: #000;
 }
-.about-content .section-title {
-  /* margin-bottom: 100px; */
-}
+
 
 .about .about-content {
   padding: 40px;
