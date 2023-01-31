@@ -304,7 +304,8 @@ nav{
   }
   
   .contact  button[type=submit]:hover {
-    background: #3194db;
+    background: #57a617;
+    color: #000;
   }
   
   
