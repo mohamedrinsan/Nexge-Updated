@@ -284,6 +284,8 @@ a {
   overflow: hidden;
 }
 
+
+
 #hero .carousel-item::before {
   content: "";
   background-color: rgba(13, 30, 45, 0.6);
