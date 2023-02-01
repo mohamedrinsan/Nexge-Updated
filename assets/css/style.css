@@ -288,7 +288,7 @@ a {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(13, 30, 45, 0.6);
+  background-color: #0d1e2d99;
   position: absolute;
   height: 100%;
   width: 100%;
